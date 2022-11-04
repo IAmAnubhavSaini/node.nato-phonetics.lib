@@ -8,7 +8,7 @@ Library for nato phonetics alphabet
 
 ## Installation
 
-`npm i node.nato-phonetis.lib`
+`npm i node.nato-phonetics.lib`
 
 TypeScript
 
