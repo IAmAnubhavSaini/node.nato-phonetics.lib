@@ -41,7 +41,7 @@ const natoPhoneticsAlphabet: StringDictionaryType = {
 
 function char2word(char: string | number): string {
     const ch = char.toString().toLowerCase();
-    return natoPhoneticsAlphabet[ch] || '❌ not found';
+    return natoPhoneticsAlphabet[ch] || ch;
 }
 
 function word2words(word: string): string[] {

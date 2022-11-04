@@ -42,7 +42,7 @@ var natoPhoneticsAlphabet = {
 exports.natoPhoneticsAlphabet = natoPhoneticsAlphabet;
 function char2word(char) {
     var ch = char.toString().toLowerCase();
-    return natoPhoneticsAlphabet[ch] || '❌ not found';
+    return natoPhoneticsAlphabet[ch] || ch;
 }
 exports.char2word = char2word;
 function word2words(word) {
