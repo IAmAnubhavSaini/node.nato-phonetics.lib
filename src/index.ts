@@ -1,4 +1,4 @@
-type StringDictionaryType = { [key: string]: string }
+export type StringDictionaryType = { [key: string]: string }
 
 const natoPhoneticsAlphabet: StringDictionaryType = {
     "0": "zero",
@@ -49,7 +49,6 @@ function word2words(word: string): string[] {
 }
 
 export {
-    StringDictionaryType,
     natoPhoneticsAlphabet,
     char2word,
     word2words
